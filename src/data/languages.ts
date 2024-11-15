@@ -1,6 +1,6 @@
 export const Translations = {
     'en': {
-        'Enter names below': 'Enter names below',
+        'Enter Team names below': 'Enter Team names below',
         'Shuffle': 'Shuffle',
         'Start': 'Start',
         'Map': 'Map',
@@ -17,7 +17,7 @@ export const Translations = {
         'Input names separated by commas or line feed here': 'Input names separated by commas or line feed here',
     },
     'ko': {
-        'Enter names below': '이름들을 입력하세요',
+        'Enter Team names below': '부서명을 입력해주세요',
         'Shuffle': '섞기',
         'Start': '시작',
         'Map': '맵',
