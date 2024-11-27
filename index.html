@@ -313,12 +313,17 @@
 	</style>
 </head>
 <body>
-	<audio autoplay loop>
-        <source src="assets/game.mp3" type="audio/mp3">
-        Your browser does not support the audio element.
-    </audio>
+	
 <script type="module" src="./src/index.ts"></script>
 <script type="text/javascript">
+	const audio = new Audio('assets/game.mp3');
+
+// 자동으로 재생하고 반복하도록 설정
+audio.autoplay = true;
+audio.loop = true;
+
+// 오디오 재생 시작
+audio.play().catch((error) => console.error('Audio play failed:', error));
 	window.dataLayer = window.dataLayer || [];
 	function gtag(){dataLayer.push(arguments);}
 	gtag('js', new Date());
